@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tahari Ismail - Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>TAHARI ISMAIL</h1>
+            <p class="subtitle">FULL STACK DEVELOPER & UI/UX DESIGNER</p>
+            
+            <nav>
+                <button class="nav-btn active" data-target="home">Home</button>
+                <button class="nav-btn" data-target="projects">Projects</button>
+                <button class="nav-btn" data-target="skills">Skills</button>
+                <button class="nav-btn" data-target="about">About</button>
+                <button class="nav-btn" data-target="hire">Hire Me</button>
+            </nav>
+        </header>
+        
+        <div class="content-container">
+            <!-- Home Content -->
+            <div id="home" class="content active">
+                <h2>Welcome to My Portfolio</h2>
+                <div class="content-img"><img src="Icons/IMG_20250316_074916.jpg" alt="Tahari Ismail"></div>
+                <p>Hello! I'm a passionate full-stack developer with expertise in creating modern, responsive web applications. With over 5 years of experience in the industry, I bring creative solutions to complex problems.</p>
+                <p>My approach combines technical excellence with user-centered design, ensuring that every project I work on delivers both functionality and exceptional user experience.</p>
+                <p class="highlight">"Click Hire, Your Business will be fire" - This isn't just a slogan, it's my commitment to delivering results that transform businesses.</p>
+                <p>Explore my portfolio to see examples of my work, or get in touch to discuss how I can help with your next project.</p>
+            </div>
+            
+            <!-- Projects Content -->
+            <div id="projects" class="content">
+                <h2>My Projects</h2>
+                <p>Here are some of my recent projects that showcase my skills and expertise:</p>
+                
+                <div class="project-grid">
+                    <div class="project-card">
+                        <div class="project-img">E-commerce Platform</div>
+                        <div class="project-info">
+                            <h3>ShopSphere</h3>
+                            <p>A full-featured e-commerce platform with payment integration, inventory management, and responsive design.</p>
+                            <p><strong>Tech:</strong> React, Node.js, MongoDB</p>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-img">Task Management App</div>
+                        <div class="project-info">
+                            <h3>TaskFlow</h3>
+                            <p>Collaborative task management system with real-time updates, team collaboration, and progress tracking.</p>
+                            <p><strong>Tech:</strong> Vue.js, Firebase, Express</p>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-img">Health & Fitness Tracker</div>
+                        <div class="project-info">
+                            <h3>FitTrack</h3>
+                            <p>Mobile-first fitness application with workout plans, nutrition tracking, and progress visualization.</p>
+                            <p><strong>Tech:</strong> React Native, Redux, GraphQL</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Skills Content -->
+            <div id="skills" class="content">
+                <h2>Technical Skills</h2>
+                <p>I've developed expertise in a wide range of technologies and methodologies:</p>
+                
+                <div class="skill-list">
+                    <div class="skill-card">
+                        <h3><i class="fas fa-code"></i> Frontend Development</h3>
+                        <p>HTML5, CSS3, JavaScript (ES6+)</p>
+                        <p>React, Vue.js, Angular</p>
+                        <p>Responsive Design, UI/UX Principles</p>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <h3><i class="fas fa-server"></i> Backend Development</h3>
+                        <p>Node.js, Express, Django</p>
+                        <p>RESTful APIs, GraphQL</p>
+                        <p>Authentication & Authorization</p>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <h3><i class="fas fa-database"></i> Databases</h3>
+                        <p>MongoDB, PostgreSQL, MySQL</p>
+                        <p>Database Design & Optimization</p>
+                        <p>ORM/ODM Libraries</p>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <h3><i class="fas fa-tools"></i> DevOps & Tools</h3>
+                        <p>Git, Docker, CI/CD</p>
+                        <p>AWS, Azure, Heroku</p>
+                        <p>Testing (Jest, Mocha)</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- About Content -->
+            <div id="about" class="content">
+                <h2>About Me</h2>
+                <div class="content-img"><img src="Icons/IMG_0092.jpg" alt=""></div>
+                <p>I'm a dedicated developer with a passion for creating elegant solutions to complex problems. My journey in tech began when I built my first website at 15, and I've been hooked ever since.</p>
+                <p>With a Computer Science degree and multiple certifications in web development, I combine formal education with practical experience to deliver top-quality solutions.</p>
+                <p>When I'm not coding, you can find me contributing to open-source projects, attending tech meetups, or exploring new frameworks and libraries to expand my skillset.</p>
+                <p>I believe in continuous learning and staying at the forefront of technology trends to provide the best solutions for my clients.</p>
+            </div>
+            
+            <!-- Hire Content -->
+            <div id="hire" class="content">
+                <h2>Let's Work Together</h2>
+                <p>I'm currently available for freelance projects and full-time opportunities. Let's discuss how I can help bring your ideas to life!</p>
+                
+                <div class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" placeholder="Enter your name">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" placeholder="Enter your email">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="project">Project Type</label>
+                        <input type="text" id="project" placeholder="Website, App, Consulting, etc.">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Project Details</label>
+                        <textarea id="message" placeholder="Tell me about your project"></textarea>
+                    </div>
+                    
+                    <button class="submit-btn">Send Request <i class="fas fa-paper-plane"></i></button>
+                </div>
+                
+                <div class="hire-offer">
+                    <h2>Special Offer for New Clients!</h2>
+                    <p style="color: white;">For a limited time, I'm offering a <span class="highlight">free 1-hour consultation</span> and <span class="highlight">15% discount</span> on your first project.</p>
+                    <p style="color: white;">Don't miss this opportunity to transform your business with professional web solutions.</p>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <p>© 2023 Tahari Ismail | All Rights Reserved</p>
+            <p>Designed and Developed with ❤️</p>
+            
+            <div class="social-icons">
+                <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" title="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
